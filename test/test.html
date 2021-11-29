@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    <script src="../dist/my-library.min.js"></script>
+</head>
+
+<body>
+    <script>
+        let elemDiv = document.createElement("div")
+
+        var welcomeMsg = myLibrary.hello("Marc");
+
+        elemDiv.append( welcomeMsg );
+
+        document.body.appendChild(elemDiv);
+    </script>
+</body>
+
+</html>
