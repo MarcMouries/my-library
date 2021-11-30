@@ -1,3 +1,3 @@
-# my-library
+# my-rollup-library
 
-project to test Rollup the module bundler for JavaScript 
+Project to test Rollup the module bundler for JavaScript 
