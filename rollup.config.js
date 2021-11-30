@@ -15,7 +15,7 @@ export default [
       terser(),
     ],
     output: {
-      dir: "dist/umd",
+      file: `dist/umd/${pkg.name}.min.js`,
       format: "umd",
       name: pkg.name,
       esModule: false,
